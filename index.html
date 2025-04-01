@@ -1,30 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="</div>es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio - Edu Tech CESDE</title>
+    <link rel="icon" href="./img/icono-cesde.png" type="image/x-icon" sizes="192x192">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <img src="imagenes/logo-cesde-blanco-sin-fondov2.png" width="200" height="100" alt="imagen.jpg">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo-cesde-blanco-sin-fondov2.png" alt="Logo CESDE">
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Ubicaciones</a></li>
-        </ul>
-        <h1>Bienvenidos al sistema de prestamo de equipos de computo</h1>
-        <p>Este sistema está diseñado para facilitar el acceso a equipos tecnológicos dentro de la institución CESDE, garantizando un uso responsable y equitativo.</p>
+    <main>
+        <section class="intro">
+            <h1>Bienvenido al Sistema de Préstamo de Equipos de Cómputo</h1>
+            <p>Este sistema está diseñado para facilitar el acceso a equipos tecnológicos dentro de la institución CESDE, garantizando un uso responsable y equitativo.</p>
+        </section>
 
-        <h1>Reglas y Políticas de Préstamo</h1>
-        
-            <li>Los equipos solo pueden ser prestados y utilizados dentro de las instalaciones de la institución CESDE.</li>
-            <li>Solo pueden solicitar préstamos personas activas con vínculo laboral o estudiantil en la institución.</li>
-            <li>El préstamo de equipos tiene un límite de 3 horas por solicitud.</li>
-            <li>Si el equipo se entrega después del tiempo establecido, el usuario será suspendido por 1 mes después de la tercera infracción.</li>
-    </nav>
+        <section class="reglas">
+            <h2>Reglas y Políticas de Préstamo</h2>
+            <ul>
+                <li>Los equipos solo pueden ser prestados y utilizados <strong>dentro de las instalaciones de la institución CESDE</strong>.</li>
+                <li>Solo pueden solicitar préstamos <strong>personas activas</strong> con vínculo laboral o estudiantil en la institución.</li>
+                <li>El préstamo de equipos tiene un límite de <strong>3 horas</strong> por solicitud.</li>
+                <li>Si el equipo se entrega después del tiempo establecido, el usuario será <strong>suspendido por 1 mes</strong> después de la tercera infracción.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="position: fixed; bottom: 0;">
+        <p>&copy; 2023 CESDE - Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
